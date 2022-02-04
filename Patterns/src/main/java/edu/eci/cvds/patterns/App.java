@@ -8,6 +8,19 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	if(args.length == 0)
+        {
+            System.out.println( "Hello World!" );
+        }
+        else
+        {
+            String sPrint = "";
+            for(String s: args)
+            {
+                sPrint = sPrint.concat(s).concat(" ");
+            }
+            System.out.println( sPrint );
+        }
+        
     }
 }
