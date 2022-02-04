@@ -57,14 +57,14 @@ mvn exec:java -DexecmainClass="clase_principal_del_proyecto" -Dexecargs="argumen
 
 	+ De las 4 instrucciones anteriores se van a ejecutar correctamente todas pero solo una de ellas nos mostrara un resultado positivo que seria el caso de la instruccion con el parametro Hexagon.
 	
-	+ El porque de esto es devido a que al crear la clase tipo enum con los nombres de los objetos, solo se nos va a mostrar una correcta ejecucion con los parametros definidos en esta clase con la escritura exacta con la que se realizo, en cambio si se nos es enviado otro tipo de parametro la ejecucion simplemente nos mostrara un mensaje de error ya predefinido por nosotros.
+	+ Esto debido a que el resto de parametros son incorrectos, siendo el ejemplo mas claro "qwerty" el cual no coincide con niguno de los parametros esperados, por otra parte apesar de que "pentagon" es similar a "Pentagon" estos deben estar escritos exacatamente igual, ya que el programa no contempla este tipo de posibilidades.
 	
 ## BIBLIOGRAFIA
 
-+ <https://www.mojohaus.org/exec-maven-plugin/usage.html>
++ <https://developer.ibm.com/es/articles/j-5things16/>
++ <https://geekflare.com/es/apache-maven-for-beginners/>
++ <http://panamahitek.com/que-es-maven-y-para-que-se-utiliza/>
++ <https://es.wikipedia.org/wiki/Maven#Plugins_disponi>
 + <https://programmerclick.com/article/81251978045/>
 + <http://tutorials.jenkov.com/maven/maven-commands.html>
-+ <https://geekflare.com/es/apache-maven-for-beginners/>
-+ <https://developer.ibm.com/es/articles/j-5things16/>
-+ <https://es.wikipedia.org/wiki/Maven#Plugins_disponi>
-+ <http://panamahitek.com/que-es-maven-y-para-que-se-utiliza/>
++ <https://www.mojohaus.org/exec-maven-plugin/usage.html>
